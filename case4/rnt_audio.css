@@ -6,12 +6,23 @@
    Case Problem 4
 
    Roads Not Taken Audio Styles
-   Author: 
-   Date:   
+   Author: Kevin Ramirez
+   Date:   12-16-19
 
    Filename: rnt_audio.css
 
 */
 
 /* Audio Styles */
+audio{
+   display: block;
+   border-radius: 27px;
+   box-shadow: darkgray 8px 8px 15px;
+   margin: 20px auto;
+   width: 80%;
 
+}
+audio::-webkit-media-controls-panel{
+   background-color: rgb(128,128,255);
+
+} 
